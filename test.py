@@ -2,7 +2,7 @@ import datetime
 
 def get_version():
     with open('version.txt','r') as version_file:
-        version = version_file.read().stript()
+        version = version_file.read().strip()
     return version 
 
 

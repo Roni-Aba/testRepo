@@ -25,5 +25,4 @@ def start():
     return 0 
 
 if __name__ == "__main__":
-    new_version = increment_version()
-    print(f"Version erhöht auf {new_version}")
+    print("Hi")
